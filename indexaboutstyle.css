@@ -13,14 +13,14 @@ body {
 }
 
 nav {
-    background-color: #FAF9F6;
+    background-color: white;
     color: #E2411F;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     font-family: "Righteous", sans-serif;
-    font-size: 1.19vw;
+    font-size: 20px;
 }
 
 nav ul {
@@ -71,14 +71,12 @@ nav ul li a {
 }
 
 .our-story .content {
-    color: #E2411F;
+   color: #E2411F;
     text-align: center;
-    padding: 10px;
-    font-size: 1.5vw;
-    background-color: #EFE3F3;
+    padding: 20px;
+    font-size: 25px;
+
 }
-
-
 
 .our-founders img {
     max-width: 100%;
