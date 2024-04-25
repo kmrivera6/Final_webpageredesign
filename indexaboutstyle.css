@@ -47,6 +47,11 @@ nav ul li a {
     width: 30px;
     height: 30px;
     margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.icons img:hover {
+    transform: scale(1.1); 
 }
 
 .container {
@@ -73,8 +78,11 @@ nav ul li a {
 .our-story .content {
    color: #E2411F;
     text-align: center;
-    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
     font-size: 25px;
+    font-family: "Spectral", serif;
+    font-style: normal;
 
 }
 
@@ -100,6 +108,8 @@ nav ul li a {
     align-items: flex-start;
     flex-wrap: wrap;
     background-color: #EFE3F3;
+    font-family: "Spectral", serif;
+    font-style: normal;
 }
 
 .founderstwocol {

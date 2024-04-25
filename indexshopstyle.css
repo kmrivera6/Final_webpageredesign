@@ -47,6 +47,11 @@ nav ul li a {
     width: 30px;
     height: 30px;
     margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.icons img:hover {
+    transform: scale(1.1); 
 }
 
 .responsive {
@@ -97,11 +102,12 @@ nav ul li a {
     border-radius: 20px;
     cursor: pointer;
     font-size: 20px;
-    margin-top: -40px;
+    margin-top: 10px;
 }
 
 .button3:hover {
-    background-color: #EFE3F3;
+    background-color: #E2411F;
+    color: #EFE3F3;
 }
 
 .footer {
